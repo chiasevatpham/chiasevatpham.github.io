@@ -11,7 +11,7 @@ function countdown() {
     document.getElementById('abc2').style.visibility = 'hidden';
     document.getElementById('abc3').style.visibility = 'hidden';
     document.getElementById('abc4').style.visibility = 'hidden';
-    const newYearsDate = new Date(2021, 9, 5, 12, 0, 0, 0);
+    const newYearsDate = new Date(2021, 9, 5, 14, 0, 0, 0);
     const currentDate = new Date();
 
     const totalSeconds = (newYearsDate - currentDate) / 1000;
