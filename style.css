@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h2 {
+    color: #FF4900;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 1rem 1.5rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.toolboxItems {
+  display: table;
+}
+
+
+.toolboxItems li {
+  display: table-row;
+}
+
+.toolboxItems .image,
+.toolboxItems .label {
+  display: table-cell;
+  width: 30px;
+  vertical-align: middle;
+}
+
+.toolboxItems .label {
+  width: 90%;
+}
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background-color:#fe1a00;
+    border-radius:6px;
+    border:1px solid #d83526;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-top: 13px;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+    background-color:#ce0100;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.hd {
+    width: 80%;
+}
+
+.hd h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+video {
+      border: 4px solid black;
+      border-radius: 35px;
+}
+
